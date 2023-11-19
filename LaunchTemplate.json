@@ -1,0 +1,34 @@
+{
+    "BlockDeviceMappings": [
+        {
+            "DeviceName": "/dev/sda1",
+            "Ebs": {
+                "DeleteOnTermination": true,
+                "VolumeSize": 100,
+                "VolumeType": "gp2"
+            }
+        }
+    ],
+    "NetworkInterfaces": [
+        {
+            "DeleteOnTermination": true,
+            "DeviceIndex": 0,
+            "Groups": [
+                "${INSTANCE_NETWORK_GROUP}"
+            ],
+            "InterfaceType": "interface",
+            "SubnetId": "${INSTANCE_SUBNET}",
+            "NetworkCardIndex": 0
+        }
+    ],
+    "ImageId": "ami-016485166ec7fa705",
+    "InstanceType": "c7gd.8xlarge",
+    "KeyName": "${INSTANCE_KEY}",
+    "Placement": {
+        "AvailabilityZone": "${INSTANCE_AVAILABILITY_ZONE}"
+    },
+    "CpuOptions": {
+        "CoreCount": 32,
+        "ThreadsPerCore": 1
+    }
+}

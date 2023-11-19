@@ -1,0 +1,18 @@
+{
+    "creators": [
+        {
+            "orcid": "0000-0002-1212-5674",
+            "name": "Connelly, Mark A."
+        }
+    ],
+    "description": "The Local Geohistory Project aims to educate users and disseminate information concerning the geographic history and structure of political subdivisions and local government. This repository contains a process to create a <a href=\"https://github.com/protomaps/PMTiles\">PMTiles archive</a> based on the <a href=\"https://daylightmap.org/\">Daylight map distribution</a> for use as a base map layer, which takes about two hours to run.",
+    "keywords": [
+        "gis"
+    ],
+    "language": "eng",
+    "license": {
+        "id": "apache-2.0"
+    },
+    "title": "Local Geohistory Project: Tile Creation",
+    "upload_type": "software"
+}
