@@ -1,5 +1,7 @@
 # Local Geohistory Project: Tile Creation
 
+[![DOI](https://zenodo.org/badge/720603942.svg)](https://zenodo.org/doi/10.5281/zenodo.10155836)
+
 ## Summary
 
 The Local Geohistory Project aims to educate users and disseminate information concerning the geographic history and structure of political subdivisions and local government. This repository contains a process to create a [PMTiles archive](https://github.com/protomaps/PMTiles) based on the [Daylight map distribution](https://daylightmap.org/) for use as a base map layer, which takes about two hours to run.
